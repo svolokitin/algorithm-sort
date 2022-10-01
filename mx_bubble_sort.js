@@ -1,6 +1,4 @@
-const arr = [10, 1, 3, 3, 9, 11, 2, 4, 5, 32];
-
-//length array = 10
+const arr = [10, 6, 25, 11, 2, 3, 2, 1];
 
 function bubble_sort(arr) {
 	const len = arr.length;
@@ -13,13 +11,11 @@ function bubble_sort(arr) {
 				arr[j + 1] = item;
 			}
 		}
-
 		console.log(i, arr);
 	}
 
 	return arr;
 }
 
+
 console.log(bubble_sort(arr));
-
-
