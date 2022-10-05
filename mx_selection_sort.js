@@ -2,7 +2,7 @@ const array = [10, 6, 25, 11, 2, 3, 2, 1];
 const len = array.length;
 let count = 0;
 
-function selectionSearch(array) {
+function selectionSort(array) {
 	for (let i = 0; i < len - 1; i++) {
 		console.log(array);
 		let min = i;
@@ -17,5 +17,5 @@ function selectionSearch(array) {
 	return array;
 }
 
-console.log(selectionSearch(array));
+console.log(selectionSort(array));
 console.log(count);
