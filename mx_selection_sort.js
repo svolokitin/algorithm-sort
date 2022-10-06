@@ -6,11 +6,12 @@ function selectionSort(array) {
 	for (let i = 0; i < len - 1; i++) {
 		console.log(array);
 		let min = i;
-		count += 1;
 		for (let j = i + 1; j < len; j++) {
 			if (array[min] > array[j]) {
 				min = j;
 			}
+
+			count += 1;
 		}
 		[array[i], array[min]] = [array[min], array[i]];
 	}
